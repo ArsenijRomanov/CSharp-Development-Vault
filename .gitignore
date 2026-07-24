@@ -1,0 +1,30 @@
+# Obsidian — локальное состояние интерфейса
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+
+# Локальные данные плагинов
+.obsidian/plugins/*/data.json
+
+# Корзина Obsidian
+.trash/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Временные файлы редакторов
+*.tmp
+*.temp
+*.swp
+*.swo
