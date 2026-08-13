@@ -55,19 +55,9 @@ Gen2 GC → Gen0 + Gen1 + Gen2 + LOH + POH
 Все новые маленькие незапиненные объекты помещаются в Gen0.
 Основной fast path для них очень простой: runtime поддерживает **указатель на следующее свободное место**.
 
-```
-     allocation pointer
-            ↓
-[A][B][C][D][           free space             ]
-```
-
-Для объекта `E`:
-
-```
-[A][B][C][D][E][        free space             ]
-              ↑
-        pointer moved
-```
+<div style="text-align: center;">
+<img src="Pasted image 20260813234003.png" style="max-width: 400; width: 100%;">
+</div>
 
 То есть аллокация концептуально сводится примерно к:
 
