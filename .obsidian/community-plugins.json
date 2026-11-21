@@ -1,5 +1,18 @@
 [
   "obsidian-plantuml",
   "custom-sort",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-excalidraw-plugin",
+  "obsidian-latex-suite",
+  "obsidian-hover-editor",
+  "cmdr",
+  "image-kit",
+  "pixel-perfect-image",
+  "editing-toolbar",
+  "open-tab-settings",
+  "obsidian-copy-block-link",
+  "obsidian-icon-folder",
+  "quickadd",
+  "obsidian-outliner",
+  "codeblock-customizer"
 ]

@@ -1,3 +1,6 @@
 {
-  "spellcheck": false
+  "spellcheck": false,
+  "focusNewTab": false,
+  "attachmentFolderPath": "Учеба/Бдшки/Картинки",
+  "alwaysUpdateLinks": true
 }

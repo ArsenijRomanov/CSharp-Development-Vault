@@ -1,1 +1,8 @@
-{}
+{
+  "enabledCssSnippets": [
+    "hide-block-ids",
+    "rider-csharp",
+    "sql-tokyo-night",
+    "http-vscode-dark-plus"
+  ]
+}

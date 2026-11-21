@@ -43,14 +43,12 @@ URL является разновидностью URI.
 Пример URL:
 
 ```http
-​
 https://api.example.com:8080/users/42/orders?status=active&limit=10#details
 ```
 
 Структура:
 
 ```http
-​
 scheme://host:port/path?query#fragment
 ```
 
@@ -58,7 +56,7 @@ scheme://host:port/path?query#fragment
 - `host` — имя хоста или IP-адрес
 - `port` — порт, необязательная часть
 - `path` — путь к ресурсу
-- `query` — дополнительные параметры запроса в формате `key=value`, начинается после `?`, разделяются через `&`
+- `query` — дополнительные параметры запроса в формате `key=value`, начинается после `?`, разделяются через `&`  ^ljdm3b
 - `fragment` — идентификатор части представления ресурса
 
 Для примера выше:
@@ -160,14 +158,12 @@ Location: ...           → header
 Общий вид:
 
 ~~~http
-​
 Name: Value
 ~~~
 
 Например:
 
 ~~~http 
-​
 Content-Type: application/json
 Accept: application/json
 Authorization: Bearer token
@@ -190,7 +186,6 @@ Authorization: Bearer token
 Тип содержимого обычно описывается заголовком:
 
 ~~~http
-​
 Content-Type: application/json
 ~~~
 
